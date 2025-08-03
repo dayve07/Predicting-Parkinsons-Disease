@@ -3,30 +3,44 @@
 
 ## Motivation
 
-- This dataset was created for researchers and data scientists aiming to explore factors associated with Parkinson's Disease, develop predictive models, and conduct statistical analyses.
-- This dataset was shared by Rabie El Kharou. We don't have any specifications on who specifically created the dataset but the dataset has likely been created for educational purposes. 
+- <b>For what purpose was the dataset created?</b>
+
+  This dataset was created for researchers and data scientists aiming to explore factors associated with Parkinson's Disease, develop predictive models, and conduct statistical analyses.
+
+ - <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?</b>
+ 
+   This dataset was shared by Rabie El Kharou on kaggle.com. We don't have any specifications on who specifically created the dataset but the dataset has likely been created for educational purposes. 
+
+<br>
  
 ## Composition
 
-- The instances represent 35 different features of 2105 patients. 
-- The dataset includes demographic details, lifestyle factors, medical history, clinical measurements, cognitive and functional assessments, symptoms, and a diagnosis indicator, indicating if the patient has the Parkinson's Disease or not. 
-- There's no missing data.
-- 
-- What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? 
-- How many instances of each type are there? 
-- Is there any missing data?
-- Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by    doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?
+- <b>What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)</b>
+
+  The instances represent medical information of 2105 patients : the dataset includes demographic details, lifestyle factors, medical history, clinical measurements, cognitive and functional assessments, symptoms, and a  diagnosis indicator, indicating if the patient has the Parkinson's Disease or not.
+
+- <b>How many instances of each type are there?</b>
+
+  There are 2105 instances 
+
+- <b>Is there any missing data?</b>
+
+  There's no missing data.
+
+- <b>Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?</b>
+
+  The dataset contains highly confidential data as it comprises health information. Nevertheless, the Patient's ID and the Doctor in Charge have been previously anonymized. 
+
+<br>
 
 ## Collection process
 
-- How was the data acquired? 
-- If the data is a sample of a larger subset, what was the sampling strategy? 
-- Over what time frame was the data collected?
+- We don't have any specifications of how the data was acquired. The dataset was either consolidated within a medical institution, or was constructed statistically by an educational team.
+- We don't have any information on a potential sampling strategy and over what time the data was collected or constructed.
 
 ## Preprocessing/cleaning/labelling
 
-- Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section. 
-- Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? 
+- No preprocessing of the data was done. 
  
 ## Uses
 
