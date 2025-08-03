@@ -1,4 +1,4 @@
-# Predicting Parkinson's Disease : Datasheet
+# Datasheet
 
 
 ## Motivation
