@@ -1,15 +1,17 @@
-# Datasheet Template
+# Predicting Parkinson's Disease : Datasheet
 
-As far as you can, complete the model datasheet. If you have got the data from the internet, you may not have all the information you need, but make sure you include all the information you do have. 
 
 ## Motivation
 
-- For what purpose was the dataset created? 
-- Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?
-
+- This dataset was created for researchers and data scientists aiming to explore factors associated with Parkinson's Disease, develop predictive models, and conduct statistical analyses.
+- This dataset was shared by Rabie El Kharou. We don't have any specifications on who specifically created the dataset but the dataset has likely been created for educational purposes. 
  
 ## Composition
 
+- The instances represent 35 different features of 2105 patients. 
+- The dataset includes demographic details, lifestyle factors, medical history, clinical measurements, cognitive and functional assessments, symptoms, and a diagnosis indicator, indicating if the patient has the Parkinson's Disease or not. 
+- There's no missing data.
+- 
 - What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? 
 - How many instances of each type are there? 
 - Is there any missing data?
@@ -36,6 +38,8 @@ As far as you can, complete the model datasheet. If you have got the data from t
 
 - How has the dataset already been distributed? 
 - Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?  
+
+- The datset is available on kaggle.com : https://www.kaggle.com/datasets/rabieelkharoua/parkinsons-disease-dataset-analysis
 
 ## Maintenance
 
