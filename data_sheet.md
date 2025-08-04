@@ -5,8 +5,8 @@
 
 - <b>For what purpose was the dataset created?</b>
 
-  This dataset was created for researchers and data scientists aiming to explore factors associated with Parkinson's Disease, develop predictive models, and conduct statistical analyses.
-
+  This dataset was created for researchers and data scientists aiming to explore factors contributing to Parkinson's Disease, develop predictive models, and conduct statistical analyses.
+    
  - <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?</b>
  
    This dataset was shared by Rabie El Kharou on kaggle.com. We don't have any specifications on who specifically created the initial dataset but the dataset has likely been created for educational purposes. 
@@ -37,6 +37,7 @@
 - <b>How was the data acquired?</b>
 
   Unknown to the author of the datasheet.
+  We know that this dataset is synthetic and was generated for educational purposes but we do not know how the initial data was acquired.
   
 - <b>If the data is a sample of a larger subset, what was the sampling strategy?</b>
 
@@ -62,9 +63,20 @@
  
 ## Uses
 
-- <b>What other tasks could the dataset be used for?</b> 
-- <b>Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?</b> 
+- <b>What other tasks could the dataset be used for?</b>
+
+  This dataset can be used as a reference for developing datasets for the detection of other diseases. The factors that influence the onset are essentially the same as those in this dataset.
+
+- <b>Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms?</b>
+
+  - This dataset specifies the patient's ethnicity. The use of this data requires special care. Generalization of results and studies must be conducted with careful caution. 
+  - Much data is binary, which doesn't allow for nuance, especially for symptom-related data. This can introduce significant bias into analysis and conclusions.
+
 - <b>Are there tasks for which the dataset should not be used? If so, please provide a description.</b>
+
+Due to its educational nature, this dataset should not be used in a professional or medical setting. However, it can be used as a source of inspiration to develop real and usable datasets.
+
+<br>
 
 ## Distribution
 
@@ -77,6 +89,8 @@
 - <b>Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)? </b>
 
   It is made available under the CC BY 4.0 license, allowing anyone to use the dataset in any form as long as proper citation is given to the author. 
+
+<br>
 
 ## Maintenance
 
