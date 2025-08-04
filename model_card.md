@@ -31,9 +31,13 @@
 <br>
 
 ## Limitations
+- <b>Techical Limitations</b> 
   - Six models were initailly tested. We could have tested a few more that could possibly got even better results. 
   - Hyperparameters tuning was only performed on the model that got the best results on the initial run. We could possibly got better results with hyperparameter tuning of other models. 
-  - Some binary data were highly unbalanced (specially in the medical history data). This can lead to biases in modeling. 
+  - Some binary data were highly unbalanced (specially in the medical history data). This can lead to biases in modeling.
+- <b>Medical Limitations</b> 
+  - The model measures the presence or absence of the disease. It does not indicate its intensity. However, this data is key in the management of the disease. Each patient requires a very distinct approach.
+  - The dataset only includes 2105 samples, which remains rather low for effective generalization.
 
 <br>
 
