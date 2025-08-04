@@ -32,15 +32,16 @@
 
 ## Limitations
 - <b>Techical Limitations</b> 
-  - Six models were initailly tested. We could have tested a few more that could possibly got even better results. 
+  - Six models were initially tested. We could have tested a few more that could possibly got even better results. 
   - Hyperparameters tuning was only performed on the model that got the best results on the initial run. We could possibly got better results with hyperparameter tuning of other models. 
   - Some binary data were highly unbalanced (specially in the medical history data). This can lead to biases in modeling.
 - <b>Medical Limitations</b> 
   - The model measures the presence or absence of the disease. It does not indicate its intensity. However, this data is key in the management of the disease. Each patient requires a very distinct approach.
   - The dataset only includes 2105 samples, which remains rather low for effective generalization.
+  - The dataset includes a lot of binary criteria (especially for medical history). This does not allow for nuance to refine the diagnosis.
 
 <br>
 
 ## Trade-offs
+  - We prioritized interpretability over accuracy. In the case of disease detection, it is important to be able to explain the causes of the prediction. This is why we selected interpretable models over more complex models like CNNs.
   - During the tuning phase, we prioritized the recall score to minimize False Negatives. We did not measure the impact on the False Positive detection rate. However, it is common for optimization of one to be at the expense of the other.
-  - Lots of criteria are binary values. In the context of more nuanced measures (e.g., numerical scale) for these data, the model would have to be reconstructed.
