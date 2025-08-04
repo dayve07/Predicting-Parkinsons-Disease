@@ -1,14 +1,26 @@
 # Model Card
 
-See the [example Google model cards](https://modelcards.withgoogle.com/model-reports) for inspiration. 
-
 ## Model Description
 
-**Input:** Describe the inputs of your model 
+- **Input:** The model takes 33 data as input :
 
-**Output:** Describe the output(s) of your model
+  - Demographic details : Age, Gender, Ethnicity and EducationLevel.
 
-**Model Architecture:** Describe the model architecture you’ve used
+  - Lifestyle factors: BMI, Smoking, Alcohol Consumption, Physical Activity, Diet Quality and Sleep Quality.
+  - Medical History : Family History with Parkinson's Disease, Traumatic Brain Injury, Hypertension, Diabetes,  Depression, Stroke.
+  - Clinical Measurements : SystolicBP, DiastolicBP, Total Cholesterol, LDL Cholesterol Level, HDL Cholesterol level and Triglycerides level.
+  - Functional Assessments : Unified Parkinson's Disease Rating Scale score (UPDRS), Montreal Cognitive Assessment score (MoCA), Score from a functional assessment.
+  - Symptoms : Presence of tremor, presence of rigidity, presence of bradykinesia, presence of postural instability, presence of speech problems, presence of sleep disorders and presence of constipation 
+
+
+- **Output:** 
+  - Diagnosis: The model outputs the Diagnosis status for Parkinson's Disease (0 for No, 1 for Yes).
+
+- **Model Architecture:** 
+  - The model is based on XGBoost (eXtreme Gradient Boosting) which got the best results among 6 pre-chosen models.
+  - Hyperparameters of the model have been optimized with Bayesian Optimization, which gave better results than other methods.
+ 
+<br>
 
 ## Performance
 
