@@ -43,4 +43,4 @@
 
 ## Trade-offs
   - During the tuning phase, we prioritized the recall score to minimize False Negatives. We did not measure the impact on the False Positive detection rate. However, it is common for optimization of one to be at the expense of the other.
-  - The model is operational because the measurement of a number of criteria is binary. In the context of more nuanced measures (e.g., numerical scale) for these data, the model would have to be reconstructed.
+  - Lots of criteria are binary values. In the context of more nuanced measures (e.g., numerical scale) for these data, the model would have to be reconstructed.
