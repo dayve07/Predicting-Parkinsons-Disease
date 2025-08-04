@@ -20,13 +20,19 @@
 - **Model Architecture:** 
   - The model is based on <b>XGBoost</b> (eXtreme Gradient Boosting) which got the best results both for <b>accuracy</b> and <b>recall</b> among 6 pre-chosen models.
   - Hyperparameters of the model have been optimized with <b>Bayesian Optimization</b>, which gave better results than other methods.
+  - Here are the best hyperparameters found by Bayesian optimization (<b>hyperopt</b> library) :
+    - 'colsample_bytree': 0.8049163259610368
+    - 'learning_rate': 0.07785276455152432
+    - 'max_depth': 3.0
+    - 'n_estimators': 267.0
+    - 'subsample': 0.7494200891698708
  
 <br>
 
 ## Performance
-  - The model got an accuracy of 94,3% and a recall of 96,6%.
+  - The model got an <b>accuracy of 94.3% and a recall of 96.6%</b>.
   - The performances were measured on test set that was built by the train_test_split method of the sklearn library.
-  - The test set consisted in 421 samples from the initial dataset (2105 samples).
+  - The test set consisted in <b>421 samples</b> from the initial dataset (2105 samples).
 
 <br>
 
