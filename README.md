@@ -12,7 +12,7 @@
 <br>
 ---
 
-**🎯Project Goal**
+# **🎯Project Goal**
 
 * This project is aimed to **predict if an adult has the Parkinson Disease (PD) or not**.
 
