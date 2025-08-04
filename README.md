@@ -1,3 +1,15 @@
+# **Predicting Parkinson's disease using Machine Learning**
+
+# **💡Context**
+
+ * **Parkinson’s Disease** (PD) is a **degenerative neurological disorder** that irremediably decreases mental faculties and movement.
+
+* **Detecting Parkinson's disease is not easy** because several factors come into play to conclude on the presence of the disease. Having one or more symptoms does not necessarily mean being affected by the disease.
+
+* As lots of other diseases, detecting the disease **as early as possible** to anticipate future treatments and necessary adjustments in their daily life.
+<br>
+---
+
 # PROJECT TITLE 
 
 
