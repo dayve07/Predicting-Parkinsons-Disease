@@ -76,7 +76,7 @@
 
 - <b>Are there tasks for which the dataset should not be used? If so, please provide a description.</b>
 
-Due to its educational nature, this dataset should not be used in a professional or medical setting. However, it can be used as a source of inspiration to develop real and usable datasets.
+  Due to its educational nature, this dataset should not be used in a professional or medical setting. However, it can be used as a source of inspiration to develop real and usable datasets.
 
 <br>
 
@@ -98,5 +98,5 @@ Due to its educational nature, this dataset should not be used in a professional
 
 - <b>Who maintains the dataset?</b>
 
-Unknown to the author of the datasheet.
+  Unknown to the author of the datasheet.
 
