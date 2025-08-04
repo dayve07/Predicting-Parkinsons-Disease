@@ -4,14 +4,20 @@
 
  * **Parkinson’s Disease** (PD) is a **degenerative neurological disorder** that irremediably decreases mental faculties and movement.
 
-* **Detecting Parkinson's disease is not easy** because several factors come into play to conclude on the presence of the disease. Having one or more symptoms does not necessarily mean being affected by the disease.
+ * Due to the aging of the population, **the disease affects an ever-increasing proportion of the population**.
+ 
+* **Traditional detection through medical imaging is still expensive, invasive and time-consuming**. Detecting the disease using other techniques is a key issue in managing the disease.
 
 * As lots of other diseases, detecting the disease **as early as possible** to anticipate future treatments and necessary adjustments in their daily life.
 <br>
 ---
 
-# PROJECT TITLE 
+**🎯Project Goal**
 
+* This project is aimed to **predict if an adult has the Parkinson Disease (PD) or not**.
+
+* Based on **35 different features** mainly regarding some **clinical measurements, medical history and cognitive assessments**, we'll look for the best Machine Learning model that will be able to predict the presence of Parkinsons diseases.
+  
 
 ## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
 100 words to explain what your project is about to a general audience. 
