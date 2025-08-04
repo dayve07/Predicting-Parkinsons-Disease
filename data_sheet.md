@@ -9,7 +9,8 @@
     
  - <b>Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?</b>
  
-   This dataset was shared by Rabie El Kharou on kaggle.com. We don't have any specifications on who specifically created the initial dataset but the dataset has likely been created for educational purposes. 
+   - This dataset was shared by Rabie El Kharou on kaggle.com. We don't have any specifications on who specifically created the initial dataset but the dataset has likely been created for educational purposes.
+   - I don't have any reliable information about Mr. Rabie El Kharou's profile. However, Mr. Rabie El Kharou has a recognized account on kaggle.com and appears in several search results as an AI and Machine Learning Student. However, I cannot certify that this is the same person.
 
 <br>
  
@@ -17,7 +18,8 @@
 
 - <b>What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)</b>
 
-  The instances represent medical information of 2105 patients. The dataset includes demographic details, lifestyle factors, medical history, clinical measurements, cognitive and functional assessments, symptoms, and a  diagnosis indicator, indicating if the patient has the Parkinson's Disease or not.
+  - The instances represent medical information of 2105 patients. The dataset includes demographic details, lifestyle factors, medical history, clinical measurements, cognitive and functional assessments, symptoms, and a  diagnosis indicator, indicating if the patient has the Parkinson's Disease or not.
+  - Data is numerical for lifestyle factors, clinical measurements, functionnal assessments. Data is binary for symptoms and medical history. DAta is categorial for some demographic details (ethnicity and Eductaion Level).
 
 - <b>How many instances of each type are there?</b>
 
@@ -52,7 +54,7 @@
 ## Preprocessing/cleaning/labelling
 - <b>Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section.</b>
 
-  No preprocessing of the data was done.
+  Unknown to the author of the datasheet.
 
 - <b>Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?</b>
 
