@@ -18,7 +18,7 @@
 
 * Based on **35 factual indicators** mainly regarding some **clinical measurements, medical history and cognitive assessments** of the patient, we will seek a way to predict the presence or absence of Parkinson's disease.
   
-* Our prediction must be as accurate as possible; we also set the objective of minimizing the number of False Negatives in our results (detection of a healthy patient when he has the disease).
+* Our prediction must be <b>as accurate as possible</b>; we also set the objective of <b>minimizing the number of False Negatives</b> in our results (detection of a healthy patient when he has the disease).
 
 <br>  
 
@@ -29,7 +29,7 @@
 
 * Author : **Rabie El Kharoua. (2024)**. 🏥Parkinson's Disease Dataset Analysis🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668551
 
-* This synthetic dataset was generated for <b>educational purposes</b>. The results of this study <b>cannot be used for a real-life diagnosis</b>.
+* ❗This synthetic dataset was generated for <b>educational purposes</b>. The results of this study <b>cannot be used for a real-life diagnosis</b>.
 <br> 
 
 # **⚛Model** 
