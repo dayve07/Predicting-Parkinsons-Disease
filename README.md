@@ -27,11 +27,31 @@
 
 * Author : **Rabie El Kharoua. (2024)**. 🏥Parkinson's Disease Dataset Analysis🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668551
 
-## MODEL 
-A summary of the model you’re using and why you chose it. 
+<br> 
 
-## HYPERPARAMETER OPTIMSATION
-Description of which hyperparameters you have and how you chose to optimise them. 
+# **⚛Model** 
+* The model is based on XGBoost (eXtreme Gradient Boosting) which got the best results both for accuracy and recall among 6 pre-chosen models.
+
+* XGBoost, is a model known for its speed and ability to process a large number of parameters. It is technically based on 
+
+<br> 
+
+#  Hyperparameter Optimisation
+* Here are the best hyperparameters found by **Bayesian optimization** (hyperopt library) :
+  
+   ➡ **'colsample_bytree': 0.805** / prevents overfitting, by selecting 80% of the features for each sub-tree
+  
+   ➡ **'learning_rate': 0.078** / low value that should lead to better generalization
+
+   ➡ **'max_depth': 3.0** / prevents overfiiting, by constructing ratger small sub-trees
+
+   ➡ **'n_estimators': 267.0** / moderate number of subtrees, that helps balance between generalization and overfitting
+
+   ➡ **'subsample': 0.750** / prevents overfitting, by selecting 75% of the samples for each subtree. This adds another layer of randomness. 
+
+* These hyperparameters have all been chosen **to prevent overfitting** and **maximize generalization**.
+
+<br> 
 
 ## RESULTS
 A summary of your results and what you can learn from your model 
