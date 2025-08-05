@@ -32,9 +32,9 @@
 <br> 
 
 # **⚛Model** 
-* The model is based on XGBoost (eXtreme Gradient Boosting) which got the best results both for accuracy and recall among 6 pre-chosen models.
+* The model is based on <b>XGBoost</b> (eXtreme Gradient Boosting) which got the <b>best results</b> both for accuracy and recall among 6 pre-chosen models.
 
-* XGBoost, is a model known for its speed and ability to process a large number of parameters. It is technically based on 
+* XGBoost, is a model known for its <b>speed</b> and <b>ability to process a large number of parameters</b>. XGBoost is based on <b>ensemble learning</b> techniques that combine several simpler models.
 
 <br> 
 
@@ -58,6 +58,8 @@
 # ✅ **Results**
 
 *   **We now have a fully operational model at our disposal**. We have built a machine learning model to predict Parkinson's disease. The results regarding the various metrics are very satisfactory. **The accuracy is almost 95.0%**, but we have also managed to minimize the number of False Negatives (**recall is 96.9%**), which is always a major objective in the case of detecting disabling diseases.
+  
+<p align="center"><img src="CM Capstone Project.png" alt="Description de l'image" width="400"/></p>
 
 *   **Clinical assessment scores** (UPDRS, MoCA, FunctionalAssessment) and **key symptoms** (Tremor, Rigidity, Bradykinesia, PosturalInstability) are the most influential features in predicting Parkinson's disease.
 
@@ -65,16 +67,16 @@
 
 <br> 
 
-#  ⏰**Further investigations:**
+#  ⏰**Further investigations**
 
 *   **Many features in our dataset were binary**, so they may lack nuance depending on the affected patient. Greater symptom refinement may help improve the model and its future use.
 *   **Regarding speech problems, numerous datasets are available** to detect the presence or at least a suspicion of Parkinson's disease in voice variations. Combining our dataset with a dataset of this type would allow us to seriously refine the model.
 *   While detection is of course key, **monitoring the progression of the disease is just as important**. Our model could potentially serve as a basis for this other type of modeling.
 
 <br> 
-You can include images of plots using the code below:
-![Screenshot](image.png)
 
-## (OPTIONAL: CONTACT DETAILS)
-If you are planning on making your github repo public you may wish to include some contact information such as a link to your twitter or an email address. 
 
+# 🖊**Contact details**
+* This project was conducted as part of the <b>[Professional Certificate in Machine Learning and Artificial Intelligence](https://www.imperial.ac.uk/business-school/executive-education/technology-analytics-data-science/professional-certificate-machine-learning-and-artificial-intelligence-programme/online/)</b> program at Imperial College Business School</b> (a program I highly recommend).
+  
+* If you'd like to know more about the project, the program, or my profile, please feel free to contact me via my <b>[LinkedIn](https://www.linkedin.com/in/david-mimoun-0137721/)</b> profile.
