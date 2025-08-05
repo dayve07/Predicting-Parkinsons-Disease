@@ -36,7 +36,7 @@
 
 <br> 
 
-#  Hyperparameter Optimisation
+# ⚖ **Hyperparameter Optimisation**
 * Here are the best hyperparameters found by **Bayesian optimization** (hyperopt library) :
   
    ➡ **'colsample_bytree': 0.805** / prevents overfitting, by selecting 80% of the features for each sub-tree
@@ -53,7 +53,7 @@
 
 <br> 
 
-## RESULTS
+# ✅ **Results**
 A summary of your results and what you can learn from your model 
 
 You can include images of plots using the code below:
