@@ -29,6 +29,7 @@
 
 * Author : **Rabie El Kharoua. (2024)**. 🏥Parkinson's Disease Dataset Analysis🧠 [Data set]. Kaggle. https://doi.org/10.34740/KAGGLE/DSV/8668551
 
+* This synthetic dataset was generated for <b>educational purposes</b>. The results of this study <b>cannot be used for a real-life diagnosis</b>.
 <br> 
 
 # **⚛Model** 
